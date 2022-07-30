@@ -16,18 +16,22 @@ Accept 3 inputs from the user:
 
 Output the total price. Give a discount based on the total price, add state tax based on the state and the discounted price.
 
+```
 Order Value Discount Rate
 $1000       3%
 $5000       5%
 $7000       7%
 $10000      10%
 $50000      15%
+```
 
+```
 State Tax Rate
 UT    6.85%
 NV    8.00%
 TX    6.25%
 AL    4.00%
 CA    8.25%
+```
 
 
