@@ -1,39 +1,33 @@
-# Bank Account
+# Elephant Carpaccio exercise handout
+(http://alistair.cockburn.us/Elephant+Carpaccio+exercise) 
 
-## Write a class named BankAccount that implements the following public interface:
+## Instructions
+1.   Break into teams of 2-3 people, one workstation per team.
+2.   Preparation - Each team writes down on paper the 10-20 demo-able user stories ("slices") they will develop and possibly demo. Each should be doable in 3-8 minutes. No slice is just mockup of UI, creation of a data table or data structure. All demos show real input & output (not test harness).
+3.   Discussion - Instructor/facilitator leads discussion of the slices, what is and isn't acceptable, solicits ways to slice finer.
+4.   Development - A fixed time-box of 40 minutes, five 8-minute development sprints, clock does not stop. At the end of each sprint, each team shows its product to another team.
+5.	Debrief
 
-```
-public interface BankAccount
-{
-    void deposit(int amount)
-    void withdraw(int amount)
-    void printStatement()
-}
+### Product
+Accept 3 inputs from the user:
+  How many items
+  Price per item
+  2-letter state code
 
-```
+Output the total price. Give a discount based on the total price, add state tax based on the state and the discounted price.
 
-(Note you can do this exercise in any programming language, translate the above code as appropriate)
+Order Value Discount Rate
+$1000       3%
+$5000       5%
+$7000       7%
+$10000      10%
+$50000      15%
 
-### Example statement
+State Tax Rate
+UT    6.85%
+NV    8.00%
+TX    6.25%
+AL    4.00%
+CA    8.25%
 
-When you call the ‘printStatement’ method, something like the following is printed on standard output:
-```
-Date       || Amount || Balance
 
-2012-01-14 || -500   || 2500
-
-2012-01-13 || 2000   || 3000
-
-2012-01-10 || 1000   || 1000
-
-```
-This example statement shows one withdrawal on 14th January 2012, and two deposits on 13th and 10th January respectively.
-
-### Notes
-
-You cannot change the public interface of the BankAccount
-We’re using ints to represent money, which in general may not be the best idea. In a real system, we would always use a datatype with guaranteed arbitrary precision, but doing so here would distract from the main purpose of the exercise.
-Don’t worry about matching the exact formatting of the bank statement, the important thing is to print a table that has column headings and which orders transactions by date.
-Acknowledgments
-
-This kata was invented by Codurance
