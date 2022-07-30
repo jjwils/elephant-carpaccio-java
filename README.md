@@ -1,4 +1,4 @@
-# Elephant Carpaccio exercise handout
+# Elephant Carpaccio
 (http://alistair.cockburn.us/Elephant+Carpaccio+exercise) 
 
 ## Instructions
