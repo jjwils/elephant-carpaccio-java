@@ -1,5 +1,5 @@
 # Elephant Carpaccio
-(http://alistair.cockburn.us/Elephant+Carpaccio+exercise) 
+(https://docs.google.com/document/u/1/d/1TCuuu-8Mm14oxsOnlk8DqfZAA1cvtYu9WGv67Yj_sSk/pub) 
 
 ## Instructions
 1.   Break into teams of 2-3 people, one workstation per team.
